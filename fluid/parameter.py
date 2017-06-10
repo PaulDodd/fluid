@@ -1,6 +1,6 @@
-# TODO: Remove from project 
+# TODO: Remove from project
 _params_warned_once = False
-class FlowParams(dict):
+class FluidParams(dict):
     defaults = dict() # the default values of the parameters
     def __init__(self, job, readonly=None):
         dict.__init__(self)
